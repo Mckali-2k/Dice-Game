@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33343D;
+    text-align: center;
+    padding: 7%;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #42C296;
+    margin-bottom: 70px;
+}
+
+.players {
+    color: #42C296;
+    margin-bottom: 30px;    
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    padding: 0 450px; 
+}
+
+.balls {
+    display: flex;
+}
+
+.dice {
+    border-radius: 15px;
+    background-color: #920210;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.d1, .d2 {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+
+    /* margin-bottom: 16.6px; */
+    margin-left: 8.5px;
+    visibility: hidden; 
+}
+
+.dices {
+    margin-right: 50px;
+}
+
+/* .p1d1, .p1d9, .p2d5 {
+    visibility: visible;
+} */
+
+/* .p1d2, .p1d5, .p1d4, .p1d6, .p1d8 {
+    visibility: hidden;
+} */
